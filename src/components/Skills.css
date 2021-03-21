@@ -1,0 +1,29 @@
+.skills{
+  
+    margin: 30px;
+
+}
+.heading{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.skills h1{
+    margin: auto;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+}
+.content div{
+   margin-bottom: 25px;
+}
+.content strong{
+    line-height: 25px;
+    display: block;
+    padding-bottom:20px ;
+    
+}
+.content li{
+    margin-bottom: 10px;
+}

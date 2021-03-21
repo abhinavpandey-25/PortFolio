@@ -1,0 +1,10 @@
+.heading{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,49 @@
+.about{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+width: 50%;
+height: 50%;
+animation: animate 6s 6s linear infinite;
+}
+a{
+text-decoration: none;
+color: aliceblue;
+}
+.button{
+    border: none;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Mukta', sans-serif;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+@keyframes animate{
+0%{
+    width: 100%;
+    height: 30%;
+}
+20%{
+    width: 80%;
+    height: 40%;
+}
+50%{
+    width: 60%;
+    height: 50%;
+}
+80%{
+    width: 50%;
+    height: 60%;
+}
+
+}

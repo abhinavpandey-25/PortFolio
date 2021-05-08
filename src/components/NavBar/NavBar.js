@@ -21,6 +21,9 @@ function NavBar() {
                    <li>
                    <Link onClick={()=>open?setopen(!open):''} to="/contact">Contact</Link>    
                    </li> 
+                   <li>
+                   <Link onClick={()=>open?setopen(!open):''} to="/projects">Projects</Link>    
+                   </li> 
                 </ul>
             </div>
         </nav>

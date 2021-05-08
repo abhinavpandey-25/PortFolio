@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
-
+.dynamic{
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 5px;
+    border-right: 2px solid orange;
+    animation: typing 4s steps(30,end) infinite;
+    
+}
 .home{
     min-width: 100%;
     display: flex;
@@ -43,4 +50,12 @@
     width: 60%;
 }
 
+}
+@keyframes typing{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
 }

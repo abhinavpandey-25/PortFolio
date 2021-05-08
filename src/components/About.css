@@ -9,7 +9,7 @@ animation: animate 6s 6s linear infinite;
 }
 a{
 text-decoration: none;
-color: aliceblue;
+color: rgb(167, 188, 207);
 }
 .button{
     border: none;

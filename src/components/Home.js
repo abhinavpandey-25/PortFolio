@@ -5,11 +5,9 @@ export default function Home() {
     return (
         <div className="home">
             <div className="title">
-                <h1>
-                <p>HI , </p>
-                <p>I am Abhinav</p>
-                </h1>
-                <Link to="/about">
+            <h2 style={{letterSpacing:'5px',lineHeight:'50px'}} >Hi , I am</h2>
+            <h2 className="dynamic" >Abhinav .</h2>
+              <Link to="/about">
                     <button className="button">More Info</button>
                 </Link>
             </div>

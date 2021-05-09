@@ -13,16 +13,16 @@ function App() {
     <div className="app">
     <NavBar/>
     <Switch>
+    <div>
     <Route exact path="/" component={Home}/>
     <Route exact path="/about" component={About}/>
     <Route exact path="/skills" component={Skills}/>
     <Route exact path="/contact" component={Contact}/>
     <Route exact path="/projects" component={Projects}/>
-    
-    </Switch>
-    
-    <Footer/>
     </div>
+    </Switch>
+    </div>
+    <Footer className="footer"/>
     </BrowserRouter>
     
   );

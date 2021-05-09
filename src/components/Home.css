@@ -39,6 +39,9 @@
 .pic img{
     width:100% ;
 }
+.wave{
+    animation: wave-animation 2.1s infinite;   
+}
 @media (max-width:300px){
 .home{
     margin-bottom: 100px;

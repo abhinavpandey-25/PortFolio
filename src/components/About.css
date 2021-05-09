@@ -1,11 +1,12 @@
 .about{
 display: flex;
+color: orange;
 flex-direction: column;
 align-items: center;
-margin: auto;
-width: 50%;
-height: 50%;
-animation: animate 6s 6s linear infinite;
+justify-content: space-between;
+margin-left: 5vw;
+margin-right: 5vw ;
+margin-bottom:5vh ;
 }
 a{
 text-decoration: none;

@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer >
             <div class="foot">
-                <IconButton style={{color:'white',size:'medium'}}> 
+                <IconButton style={{color:'white',size:'medium'}} href="https://www.linkedin.com/in/abhinav-pandey-b0a87114b/"> 
 
                  <LinkedInIcon style={{fontSize:'40'}}/>
                     
@@ -19,7 +19,7 @@ export default function Footer() {
                 <TwitterIcon style={{fontSize:'40'}}/>
                     
                 </IconButton>
-                <IconButton style={{color:'white'}}>
+                <IconButton style={{color:'white'}} href="https://github.com/abhinavpandey-25">
 
                 <GitHubIcon style={{fontSize:'40'}}/>
                     

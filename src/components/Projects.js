@@ -14,16 +14,18 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
+    marginLeft:'5vw',
+    marginRight:'5vw',
   }
 }));
 export default function RecipeReviewCard() {
   const classes = useStyles();
   return (
       <> 
-    <div style={{display:'flex',justifyContent:'center',marginBottom:'10px'}}>
-    <h1>My Projects</h1>
+    <div style={{display:'flex',justifyContent:'center' ,marginBottom:'2vh'}}>
+    <h1 style={{color:'orange'}}> My Projects</h1>
 </div>
-      <div style={{display:'flex',justifyContent:'space-around'}}>
+      <div style={{display:'flex',justifyContent:'space-around',marginBottom:'5vh'}}>
          
     <Card className={classes.root}  >
       <CardMedia
@@ -54,14 +56,14 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-        This is a whatsapp clone which is made using react and firebase .
-        In this the concept of Context api in react is used . The Login Part uses the firebase
-        Google Authentication .
+       This Is a TodoList based which consist of the All CRUD operations and is made using firebase
+       ,React and Material UI for basic css . It can be used to keep a track of our daily task that 
+       can keep our life disciplined.
         </Typography>
       </CardContent>
      <div style={{display:'flex',justifyContent:'center'}}>
          <IconButton>
-         <Button variant="contained" color="primary"  href="https://whatsappclone-44797.firebaseapp.com/rooms/6Fh9fxTf28saSHbSLDpr">
+         <Button variant="contained" color="primary"  href="https://todo-app-9430f.firebaseapp.com/">
   View Project
 </Button>
          </IconButton>

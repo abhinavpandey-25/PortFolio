@@ -1,7 +1,6 @@
 .skills{
+    color: orange;
   
-    margin: 30px;
-
 }
 .heading{
     display: flex;
@@ -13,7 +12,8 @@
 }
 .content{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10vw;
 }
 .content div{
    margin-bottom: 25px;
